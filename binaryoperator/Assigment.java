@@ -16,16 +16,16 @@ public class Assigment {
         System.out.println("Nilai y setelah -= 3 adalah" + y);
 
         int z = 5;
-        z += 3; // x = x + 3
-        System.out.println("Nilai x setelah += 3 adalah" + x);
+        z *= 3; // x = x * 3
+        System.out.println("Nilai x setelah *= 3 adalah" + x);
 
-        int x = 5;
-        x += 3; // x = x + 3
-        System.out.println("Nilai x setelah += 3 adalah" + x);
+        int a = 20;
+        a /= 4; // a = a / 3
+        System.out.println("Nilai a setelah /= 3 adalah" + a);
 
-        int x = 5;
-        x += 3; // x = x + 3
-        System.out.println("Nilai x setelah += 3 adalah" + x);
+        int b = 20;
+        b %= 4; // b = b % 3
+        System.out.println("Nilai b setelah %= 3 adalah" + b);
 
 
     }

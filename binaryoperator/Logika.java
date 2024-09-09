@@ -6,12 +6,13 @@ public class Logika {
         boolean b = false;
 
         // AND (&&)
-        boolean hasilAnd = a && b:
-        System.out.println();
+        boolean hasilAnd = a && b;
+        System.out.println("a AND b" + hasilAnd);
 
         // OR (||)
 
         boolean hasilOr = a || b;
+        System.out.println("a OR b" + hasilOr);
 
     }
 }
